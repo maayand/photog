@@ -1,0 +1,179 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  color: white;
+  width: 100%;
+  height: 120px;
+  padding: 130px 0px 130px 0px;
+  background: #333 url("img/header-img.png") no-repeat 50% 50%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+h1, p {
+  margin-top: 0;
+  padding-left: 15px;
+}
+
+.itmes {
+  padding: 10px;
+}
+
+.item {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item .img-name {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  margin: 10px;
+}
+
+.item .img-name:hover {
+  cursor: zoom-in;
+  display: block;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.item .img-name p {
+  margin-top: 85%;
+  z-index: 2;
+  color: white;
+  opacity: 1;
+  text-transform: capitalize;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer {
+  height: 80px;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 1em;
+  padding-left: 1%;
+  float: left;
+}
+
+.footer a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.my-profile {
+  border-right: 1px solid black;
+}
+
+.my-modal {
+  display: none;
+  position: fixed;
+  /* Stay in place */
+  z-index: 3;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+html, body, .my-modal {
+  height: 100%;
+  overflow: auto;
+}
+
+.my-modal .row .fullheight {
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+  padding-top: 10%;
+}
+
+.my-modal-content {
+  width: 100%;
+  text-align: center;
+}
+
+.my-modal-content img {
+  max-width: 600px;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+.my-modal-content img:hover {
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  color: #f5f1f1;
+  z-index: 99999;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.next {
+  color: #f5f1f1;
+  font-size: 5em;
+  margin-top: 140px;
+}
+
+.prev {
+  color: #f5f1f1;
+  font-size: 5em;
+  text-align: right;
+  margin-top: 140px;
+}
+
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.next:hover,
+.next:focus,
+.prev:hover,
+.prev:focus {
+  color: black;
+  transition: 2s;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

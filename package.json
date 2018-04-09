@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "gallery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm i grunt"
+  },
+  "description": ""
+}
